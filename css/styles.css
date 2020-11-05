@@ -622,7 +622,6 @@ pre code {
   padding-right: 0.75rem;
   padding-left: 0.75rem;
 }
-
 .col {
   flex-basis: 0;
   flex-grow: 1;
@@ -10030,6 +10029,12 @@ p {
   background-size: cover;
 
 }
+.overlay{
+  text-shadow: 1px 1px rgba(0,0,0,0.4),
+               -1px 1px rgba(0,0,0,0.4),
+               1px -1px rgba(0,0,0,0.4),
+               -1px -1px rgba(0,0,0,0.4);
+}
 .page-section2 h2.section-heading {
   font-size: 4rem;
 font-weight: bolder;
@@ -10242,7 +10247,7 @@ header.masthead .masthead-heading {
   display: block;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .portfolio-item .portfolio-link
   display: flex;
   position: absolute;
   width: 100%;
@@ -10253,7 +10258,7 @@ header.masthead .masthead-heading {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio .portfolio-item .portfolio-link  .portfolio-hover-content {
   font-size: 1.25rem;
   color: #fff;
 }
@@ -10313,6 +10318,7 @@ header.masthead .masthead-heading {
   background-color: transparent;
 }
 .portfolio-modal .close-modal:hover {
+  background-color: #fff;
   opacity: 0.3;
 }
 
